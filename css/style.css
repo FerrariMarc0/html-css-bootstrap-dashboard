@@ -16,3 +16,34 @@ header{
 nav{
     background: #ffffff;
 }
+#logo_lg{
+    display: none;
+}
+.input_nav{
+    background: #e5e5e5;
+}
+
+.nav_icon_lg{
+    color: #585858;
+    display: none;
+}
+.col-2 a:last-child{
+    color: #ff8f00;
+}
+
+
+@media screen and (min-width: 768px){
+    #logo_sm{
+        display: none;
+    }
+    #logo_lg{
+        display: block;
+    }
+    
+}
+
+@media screen and (min-width: 992px){
+    .col-2 a{
+            display: inline-block;
+        }
+}

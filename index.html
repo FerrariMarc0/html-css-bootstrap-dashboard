@@ -14,9 +14,30 @@
 </head>
 <body>
     <header>
-        <div class="py-2">
-            <nav class="py-2 d-flex">
-                
+        <div class="py-3 px-lg-3">
+            <nav class="row align-items-center">
+                <div class="col-2">
+                    <div id="logo_sm">
+                        <img src="img/mobile-logo.png" alt="logo" class="img-fluid">
+                    </div>
+                    <div id="logo_lg">
+                        <img src="img/logo.svg" alt="logo" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="col-8">
+                    <form>
+                        <label for="search" class="visually-hidden">Search</label>
+                        <input type="search" name="search" id="search" placeholder="🔍 Prova a cercare: Lezioni di Laravel" class="w-100 border-0 rounded py-2 input_nav">
+                    </form>
+                </div>
+
+                <div class="col-2 d-flex justify-content-lg-between justify-content-sm-center">
+                    <a href="#" class="nav_icon_lg"><i class="fa-solid fa-list-ul"></i></a>
+                    <a href="#" class="nav_icon_lg"><i class="fa-solid fa-circle-question"></i></a>
+                    <a href="#" class="nav_icon_lg"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    <a href="#"><i class="fa-solid fa-bell"></i></a>
+                </div>
             </nav>
         </div>
     </header>
