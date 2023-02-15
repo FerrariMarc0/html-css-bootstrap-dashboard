@@ -9,9 +9,11 @@
 */
 body{
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 header{
     background: #f8f9fa;
+    
 }
 nav{
     background: #ffffff;
@@ -30,8 +32,34 @@ nav{
 .col-2 a:last-child{
     color: #ff8f00;
 }
+/********************************/
+a-side{
+    background: #0e263c;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 4.375rem;
+    justify-content: space-between;
+    padding: 2.5rem 0 6.25rem;
+    align-items: center;
+}
+a-side span{
+    display: none;
+    padding-left: 10px;
+}
+a{
+    color: #ffffff;
+}
+#boolean{
+    width: 90vw;
+    background-color: #1b72e8;
+}
 
-
+@media screen and (min-width: 500px){
+    a-side{
+        padding: 2.5rem 0 9.375rem;
+    }
+}
 @media screen and (min-width: 768px){
     #logo_sm{
         display: none;
@@ -39,11 +67,22 @@ nav{
     #logo_lg{
         display: block;
     }
-    
+    a-side{
+        padding: 2.5rem 0 6.25rem;
+    }
+    #new{
+        order: 1;
+    }
 }
 
 @media screen and (min-width: 992px){
     .col-2 a{
             display: inline-block;
         }
+    a-side span{
+        display: inline-block;
+    }
+    a-side{
+        width: 9.375rem;
+    }
 }
