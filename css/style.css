@@ -12,7 +12,10 @@ body{
 }
 header{
     background: #f8f9fa;
-    
+    height: 4.375rem;
+}
+main{
+    height: calc(100vh - 70px);
 }
 nav{
     background: #ffffff;
@@ -38,7 +41,7 @@ nav{
     flex-direction: column;
     justify-content: space-between;
 }
-a-side span{
+aside span{
     display: none;
     padding-left: .625rem;
 }
@@ -55,9 +58,20 @@ a{
     color: #ffffff;
 }
 
+/*******************/
+#box_table, #bord_top{
+    border: 1px solid;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
 
 
 
+@media screen and (max-width: 768px){
+    #all_tables{
+        flex-direction: column;
+    }
+}
 
 
 @media screen and (min-width: 768px){
@@ -76,7 +90,7 @@ a{
     .col-2 a{
             display: inline-block;
         }
-    a-side span{
+    aside span{
         display: inline-block;
     }
 }
