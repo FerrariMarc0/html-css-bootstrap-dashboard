@@ -34,6 +34,8 @@ nav{
     background-color: transparent;
     color: #ffffff;
     border: 1px solid #ffffff;
+    font-size: 15px;
+    font-weight: 600;
 }
 
 .nav_icon_lg{
@@ -51,6 +53,7 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-image: url(../img/sidebar-bg.png);
 }
 aside span{
     display: none;
