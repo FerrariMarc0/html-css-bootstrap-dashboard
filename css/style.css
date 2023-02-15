@@ -79,9 +79,19 @@ header a, aside a{
     border: 1px solid;
     border-radius: .3125rem;
 }
+table button{
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 5px;
+    color: #6c757d;
+    background: #ffffff;
+}
 #bord_top{
     border-top-right-radius: .3125rem;
     border-top-left-radius: .3125rem;
+    background: #f7f7f7;
+    padding: 5px 10px;
 }
 .image{
     width: 1.875rem;
