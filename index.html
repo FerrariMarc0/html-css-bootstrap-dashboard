@@ -47,148 +47,209 @@
     </header>
 
     <main class="d-flex">
-            <div class="box flex-shrink-0">
-                <aside>
-                    <ul class="py-3">
-                        <li><a href="#"><i class="fa-solid fa-house"></i><span>Home</span></a></li>
-                        <li><a href="#"><i class="fa-solid fa-chart-simple"></i><span>Stats</span></a></li>
-                        <li><a href="#"><i class="fa-solid fa-signal"></i><span>Signals</span></a></li>
-                    </ul>
-                </aside>
-                <aside>
-                    <ul>
-                        <li><a href="#"><i class="fa-solid fa-gear"></i><span>Admin</span></a></li>
-                    </ul>
-                </aside>
-            </div>
-            
-            <section class="flex-grow-1 overflow-x-hidden overflow-y-scroll">
-                <div class="container-fluid" id="bottom_nav">
-                    <div class="row flex-column flex-md-row" id="boolean">
-                        <div class="col-4" id="new">
-                            <span>Nuovo studente</span>
-                            <i class="fa-regular fa-square-plus"></i>
-                        </div>
-                        <div class="col-4">
-                            <h3>Boolean</h3>
-                        </div>
-                        <div class="col-4">
-                            <span>studenti online negli ultimi 30 minuti</span>
-                        </div>
+      <div class="box flex-shrink-0">
+          <aside>
+              <ul class="py-3">
+                  <li><a href="#"><i class="fa-solid fa-house"></i><span>Home</span></a></li>
+                  <li><a href="#"><i class="fa-solid fa-chart-simple"></i><span>Stats</span></a></li>
+                  <li><a href="#"><i class="fa-solid fa-signal"></i><span>Signals</span></a></li>
+              </ul>
+          </aside>
+          <aside>
+              <ul>
+                  <li><a href="#"><i class="fa-solid fa-gear"></i><span>Admin</span></a></li>
+              </ul>
+          </aside>
+      </div>
+      
+      <section class="flex-grow-1 overflow-x-hidden overflow-y-scroll">
+          <div class="container-fluid" id="bottom_nav">
+              <div class="row flex-column flex-md-row" id="boolean">
+                  <div class="col-4" id="new">
+                      <span>Nuovo studente</span>
+                      <i class="fa-regular fa-square-plus"></i>
+                  </div>
+                  <div class="col-4">
+                      <h3>Boolean</h3>
+                  </div>
+                  <div class="col-4">
+                      <span>studenti online negli ultimi 30 minuti</span>
+                  </div>
+              </div>
+          </div>
+
+          <div class="row py-4 px-3" id="all_tables">
+              <div class="col-md-8">
+                  <div id="box_table">
+                      <div class="border-bottom bg-body-secondary" id="bord_top">
+                          <h3>Prossime Classi</h3>
+                      </div>
+                      <div class="px-3">
+                          <table class="table table-hover">
+                              <thead>
+                                <tr>
+                                  <th scope="col" colspan="3">Nome</th>
+                                  <th scope="col" class="hidden_sm">Data inizio</th>
+                                  <th scope="col" class="hidden_sm">ROI</th>
+                                  <th scope="col">Stato</th>
+                                  <th scope="col">Azioni</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <th scope="row" colspan="3"><img src="img/class-avatar.jpg" alt="img-class" class="image"> Classe 75</th>
+                                  <td class="hidden_sm">15 Febbraio 2021</td>
+                                  <td class="hidden_sm">20%</td>
+                                  <td><span class="badge text-bg-success">Success</span></td>
+                                  <td>icona icona</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row" colspan="3"><img src="img/class-avatar.jpg" alt="img-class" class="image"> Classe 75</th>
+                                  <td class="hidden_sm">15 Febbraio 2021</td>
+                                  <td class="hidden_sm">20%</td>
+                                  <td><span class="badge text-bg-success">Success</span></td>
+                                  <td>icona icona</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row" colspan="3"><img src="img/class-avatar.jpg" alt="img-class" class="image"> Classe 75</th>
+                                  <td class="hidden_sm">15 Febbraio 2021</td>
+                                  <td class="hidden_sm">20%</td>
+                                  <td><span class="badge rounded-pill text-bg-warning">Warning</span></td>
+                                  <td>icona icona</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row" colspan="3"><img src="img/class-avatar.jpg" alt="img-class" class="image"> Classe 75</th>
+                                  <td class="hidden_sm">15 Febbraio 2021</td>
+                                  <td class="hidden_sm">20%</td>
+                                  <td><span class="badge text-bg-success">Success</span></td>
+                                  <td>icona icona</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row" colspan="3"><img src="img/class-avatar.jpg" alt="img-class" class="image"> Classe 75</th>
+                                  <td class="hidden_sm">15 Febbraio 2021</td>
+                                  <td class="hidden_sm">20%</td>
+                                  <td><span class="badge text-bg-danger">Danger</span></td>
+                                  <td>icona icona</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row" colspan="3"><img src="img/class-avatar.jpg" alt="img-class" class="image"> Classe 75</th>
+                                  <td class="hidden_sm">15 Febbraio 2021</td>
+                                  <td class="hidden_sm">20%</td>
+                                  <td><span class="badge text-bg-success">Success</span></td>
+                                  <td>icona icona</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row" colspan="3"><img src="img/class-avatar.jpg" alt="img-class" class="image"> Classe 75</th>
+                                  <td class="hidden_sm">15 Febbraio 2021</td>
+                                  <td class="hidden_sm">20%</td>
+                                  <td><span class="badge text-bg-danger">Danger</span></td>
+                                  <td>icona icona</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row" colspan=""><img src="img/class-avatar.jpg" alt="img-class" class="image"> Classe 75</th>
+                                  <td class="hidden_sm">15 Febbraio 2021</td>
+                                  <td class="hidden_sm">20%</td>
+                                  <td><span class="badge text-bg-success">Success</span></td>
+                                  <td>icona icona</td>
+                                </tr>
+                              </tbody>
+                          </table>
+                      </div>
+                      
+                  </div>
+
+                  <div class="my-3" id="box_table">
+                      <div class="border-bottom px-2" id="bord_top">
+                          <h3>F.A.Q</h3>
+                      </div>
+                      <div class="accordion accordion-flush px-3" id="accordionFlushExample">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                Accordion Item #1
+                              </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                Accordion Item #2
+                              </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                Accordion Item #3
+                              </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-md-4">
+                <div id="box_table">
+                  <div class="border-bottom bg-body-secondary" id="bord_top">
+                      <h3>Todo</h3>
+                  </div>
+                  <div class="p-3">
+                    <div class="card">
+                      <div class="card-body border-top">
+                        <form action="">
+                          <label for=""></label>
+                          <input type="checkbox" name="" id="">
+                          <span>Kickoff nuove classi</span>
+                        </form>
+                      </div>
+                      <div class="card-body border-top">
+                        <form action="">
+                          <label for=""></label>
+                          <input type="checkbox" name="" id="">
+                          <span>Kickoff nuove classi</span>
+                        </form>
+                      </div>
+                      <div class="card-body border-top">
+                        <form action="">
+                          <label for=""></label>
+                          <input type="checkbox" name="" id="">
+                          <span>Kickoff nuove classi</span>
+                        </form>
+                      </div>
                     </div>
+                  </div>
+                  
                 </div>
 
-                <div class="row py-4 px-2" id="all_tables">
-                    <div class="col-md-8">
-                        <div id="box_table">
-                            <div class="border-bottom bg-body-secondary" id="bord_top">
-                                <h3>Prossime Classi</h3>
-                            </div>
-                            <div class="px-3">
-                                <table class="table table-hover">
-                                    <thead>
-                                      <tr>
-                                        <th scope="col">#</th>
-                                        <th scope="col">First</th>
-                                        <th scope="col">Last</th>
-                                        <th scope="col">Handle</th>
-                                      </tr>
-                                    </thead>
-                                    <tbody>
-                                      <tr>
-                                        <th scope="row">1</th>
-                                        <td>Mark</td>
-                                        <td>Otto</td>
-                                        <td>@mdo</td>
-                                      </tr>
-                                      <tr>
-                                        <th scope="row">2</th>
-                                        <td>Jacob</td>
-                                        <td>Thornton</td>
-                                        <td>@fat</td>
-                                      </tr>
-                                      <tr>
-                                        <th scope="row">3</th>
-                                        <td colspan="2">Larry the Bird</td>
-                                        <td>@twitter</td>
-                                      </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            
+                  <div class="container-fluid my-3 py-3 ps-5" id="box_table">
+                      <div class="card" style="width: 30rem;">
+                          <img src="img/stats.jpeg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Utenti attivi</h5>
+                            <p class="card-text">Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
+                          </div>
+                          <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><span>Gennaio: 1200</span></li>
+                            <li class="list-group-item"><span>Febbraio: 800</span></li>
+                            <li class="list-group-item"><span>Marzo: 1500</span></li>
+                          </ul>
+                          <div class="card-body">
+                            <a href="#" class="card-link">Visualizza report</a>
+                          </div>
                         </div>
-
-                        <div class="my-3" id="box_table">
-                            <div class="border-bottom bg-body-secondary" id="bord_top">
-                                <h3>Prossime Classi</h3>
-                            </div>
-                            <div class="accordion accordion-flush px-3" id="accordionFlushExample">
-                                <div class="accordion-item">
-                                  <h2 class="accordion-header" id="flush-headingOne">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                      Accordion Item #1
-                                    </button>
-                                  </h2>
-                                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
-                                  </div>
-                                </div>
-                                <div class="accordion-item">
-                                  <h2 class="accordion-header" id="flush-headingTwo">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                      Accordion Item #2
-                                    </button>
-                                  </h2>
-                                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-                                  </div>
-                                </div>
-                                <div class="accordion-item">
-                                  <h2 class="accordion-header" id="flush-headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                      Accordion Item #3
-                                    </button>
-                                  </h2>
-                                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
-                                  </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="container-fluid bg-body-tertiary" id="box_table">
-                            <ul class="list-group">
-                                <li class="list-group-item">An item</li>
-                                <li class="list-group-item">A second item</li>
-                                <li class="list-group-item">A third item</li>
-                                <li class="list-group-item">A fourth item</li>
-                                <li class="list-group-item">And a fifth one</li>
-                              </ul>
-                        </div>
-
-                        <div class="container-fluid bg-body-tertiary my-3" id="box_table">
-                            <div class="card" style="width: 18rem;">
-                                <img src="..." class="card-img-top" alt="...">
-                                <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                                <ul class="list-group list-group-flush">
-                                  <li class="list-group-item">An item</li>
-                                  <li class="list-group-item">A second item</li>
-                                  <li class="list-group-item">A third item</li>
-                                </ul>
-                                <div class="card-body">
-                                  <a href="#" class="card-link">Card link</a>
-                                  <a href="#" class="card-link">Another link</a>
-                                </div>
-                              </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+                  </div>
+              </div>
+          </div>
+      </section>
               
     
     </main>

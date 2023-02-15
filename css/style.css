@@ -16,6 +16,7 @@ header{
 }
 main{
     height: calc(100vh - 70px);
+    background: #ffffff;
 }
 nav{
     background: #ffffff;
@@ -49,7 +50,7 @@ ul{
     list-style-type: none;
     padding-right: 1.875rem;
 }
-a{
+header a, aside a{
     color: #ffffff;
 }
 /*********************/
@@ -59,12 +60,24 @@ a{
 }
 
 /*******************/
-#box_table, #bord_top{
+#box_table{
     border: 1px solid;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    border-radius: .3125rem;
+}
+#bord_top{
+    border-top-right-radius: .3125rem;
+    border-top-left-radius: .3125rem;
 }
 
+
+.image{
+    width: 1.875rem;
+    height: 1.875rem;
+    background-size: cover;
+}
+.hidden_sm{
+    visibility: hidden;
+}
 
 
 @media screen and (max-width: 768px){
@@ -83,6 +96,9 @@ a{
     }
     #new{
         order: 1;
+    }
+    .hidden_sm{
+        visibility: visible;
     }
 }
 
