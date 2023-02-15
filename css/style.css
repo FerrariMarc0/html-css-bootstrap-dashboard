@@ -27,13 +27,23 @@ nav{
 .input_nav{
     background: #e5e5e5;
 }
+#box_badge span:not(:first-child){
+    background-color: #165bba;
+}
+#button_plus{
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
 
 .nav_icon_lg{
     color: #585858;
     display: none;
 }
-.col-2 a:last-child{
+.col-2 button{
     color: #ff8f00;
+    background-color: transparent;
+    border: none;
 }
 /********************************/
 .box{
@@ -57,6 +67,8 @@ header a, aside a{
 #boolean{
     background-color: #1b72e8;
     color: #ffffff;
+    min-height: 125px;
+    align-items: center;
 }
 
 /*******************/
@@ -68,24 +80,24 @@ header a, aside a{
     border-top-right-radius: .3125rem;
     border-top-left-radius: .3125rem;
 }
-
-
 .image{
     width: 1.875rem;
     height: 1.875rem;
     background-size: cover;
 }
-.hidden_sm{
+.hidden_sm, .hidden_lg{
     visibility: hidden;
 }
 
-
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
     #all_tables{
         flex-direction: column;
     }
+   
 }
-
+#button_plus:active{
+    
+}
 
 @media screen and (min-width: 768px){
     #logo_sm{
@@ -108,5 +120,11 @@ header a, aside a{
         }
     aside span{
         display: inline-block;
+    }
+    .hidden_lg{
+        visibility: visible;
+    }
+    #d_plus, #box_badge span i{
+        display: none;
     }
 }
