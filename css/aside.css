@@ -1,0 +1,25 @@
+.box{
+    background: #0e263c;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(../img/sidebar-bg.png);
+}
+
+aside span{
+    display: none;
+    padding-left: .625rem;
+}
+
+ul{
+    list-style-type: none;
+    padding-right: 1.875rem;
+}
+
+header a, aside a{
+    color: #ffffff;
+}
+
+.hov:hover{
+    background: lightgray;
+}

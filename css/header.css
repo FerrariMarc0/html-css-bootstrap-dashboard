@@ -1,0 +1,27 @@
+header{
+    background: #f8f9fa;
+    height: 4.375rem;
+}
+
+nav{
+    background: #ffffff;
+}
+
+#logo_lg{
+    display: none;
+}
+
+.input_nav{
+    background: #e5e5e5;
+}
+
+.nav_icon_lg{
+    color: #585858;
+    display: none;
+}
+
+.col-2 button{
+    color: #ff8f00;
+    background-color: transparent;
+    border: none;
+}

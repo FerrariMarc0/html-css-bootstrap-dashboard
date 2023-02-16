@@ -1,0 +1,50 @@
+@media screen and (max-width: 648px){
+    .hidden_sm{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px){
+    #all_tables{
+        flex-direction: column;
+    }
+    #offcanvas{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    #logo_sm{
+        display: none;
+    }
+    #logo_lg{
+        display: block;
+    }
+    #new{
+        order: 1;
+    }
+    .hidden_sm{
+        visibility: visible;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .col-2 a{
+            display: inline-block;
+        }
+    aside span{
+        display: inline-block;
+    }
+    .hidden_lg{
+        visibility: visible;
+    }
+    #d_plus, #box_badge span i{
+        display: none;
+    }
+    #graph{
+        width: 35rem;
+    }
+    #offcanvas{
+        width: 50%;
+    }
+}

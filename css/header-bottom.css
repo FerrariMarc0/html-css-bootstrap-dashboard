@@ -1,0 +1,23 @@
+#box_badge span:not(:first-child){
+    background-color: #165bba;
+}
+
+#button_plus{
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    font-size: .9375rem;
+    font-weight: 600;
+}
+#boolean{
+    background-color: #1b72e8;
+    color: #ffffff;
+    min-height: 7.8125rem;
+    align-items: center;
+}
+
+.wid{
+    border: 2px solid;
+    border-color: #ced4da;
+    width: 100%;
+}

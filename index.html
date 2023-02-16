@@ -19,7 +19,7 @@
   <header>
     <div class="container-fluid py-3 px-lg-3">
       <nav class="row align-items-center">
-        <div class="col-2">
+        <div class="col-2 col-lg-auto">
           <div id="logo_sm">
             <img src="img/mobile-logo.png" alt="logo" class="img-fluid">
           </div>
@@ -27,8 +27,8 @@
             <img src="img/logo.svg" alt="logo" class="img-fluid">
           </div>
         </div>
-          <!--HEADER INPUT--->
-        <div class="col-8">
+          <!--HEADER-INPUT--->
+        <div class="col">
           <form>
             <div class="d-flex input-group">
               <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
@@ -36,7 +36,7 @@
             </div>
           </form>
         </div>
-          <!--HEADER OPTIONS--->
+          <!--HEADER-OPTIONS--->
         <div class="col-2 d-flex justify-content-lg-around justify-content-sm-center lh-lg">
           <a href="#" class="nav_icon_lg"><i class="fa-solid fa-list-ul"></i></a>
           <a href="#" class="nav_icon_lg"><i class="fa-solid fa-circle-question"></i></a>
@@ -46,9 +46,9 @@
               <i class="fa-solid fa-bell"></i>
             </button>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#">Profilo</a></li>
+              <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+              <li><a class="dropdown-item" href="#">Logout</a></li>
             </ul>
           </div>
         </div>
@@ -60,14 +60,14 @@
     <div class="box flex-shrink-0">
       <aside>
         <ul class="py-3">
-          <li><a href="#"><i class="fa-solid fa-house"></i><span>Home</span></a></li>
-          <li><a href="#"><i class="fa-solid fa-chart-simple my-4"></i><span>Stats</span></a></li>
-          <li><a href="#"><i class="fa-solid fa-signal"></i><span>Signals</span></a></li>
+          <li class="hov p-2"><a href="#"><i class="fa-solid fa-house"></i><span>Home</span></a></li>
+          <li class="hov p-2"><a href="#"><i class="fa-solid fa-chart-simple"></i><span>Stats</span></a></li>
+          <li class="hov p-2"><a href="#"><i class="fa-solid fa-signal"></i><span>Signals</span></a></li>
         </ul>
       </aside>
       <aside>
         <ul>
-          <li><a href="#"><i class="fa-solid fa-gear"></i><span>Admin</span></a></li>
+          <li class="hov p-2"><a href="#"><i class="fa-solid fa-gear"></i><span>Admin</span></a></li>
         </ul>
       </aside>
     </div>
@@ -80,7 +80,7 @@
             <button data-bs-target="#offcanvas" data-bs-toggle="offcanvas" type="button" class="toggle ms-3 px-2" id="button_plus">+</button>
           </div>
           <div class="col-md-4" id="box_badge">
-            <span>Boolean</span>
+            <span class="fs-3">Boolean</span>
             <span class="badge rounded-pill">Piano blaze</span><br>
             <span class="badge rounded-pill">3 app</span>
             <i class="fa-solid fa-angles-right"></i>
@@ -187,7 +187,7 @@
                   </button>
                 </h2>
                 <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                  <div class="accordion-body"><p>Clicca sul + in alto nella sezione blu.</p></div>
                 </div>
               </div>
               <div class="accordion-item">
@@ -197,7 +197,7 @@
                   </button>
                 </h2>
                 <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                  <div class="accordion-body"><p>Clicca sull'icona della campanella.</p></div>
                 </div>
               </div>
               <div class="accordion-item">
@@ -207,7 +207,7 @@
                   </button>
                 </h2>
                 <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                  <div class="accordion-body"><p>Clicca su "Boolean mobile app" nella sezione blu</p></div>
                 </div>
               </div>
             </div>
@@ -237,7 +237,7 @@
                 </div>
                 <div class="card-body border-top">
                   <form action="#">
-                    <label for=""></label>
+                    <label for="checkbox"></label>
                     <input type="checkbox" name="checkbox" id="checkbox">
                     <span>Controllare username Github studenti</span>
                   </form>
@@ -246,7 +246,7 @@
             </div>
           </div>
                 <!--BOOSTRAP-CARD-->
-          <div class="card my-3" style="width: 35rem;">
+          <div class="card my-3" id="graph">
             <img src="img/stats.jpeg" class="card-img-top" alt="stats">
             <div class="card-body">
               <h5 class="card-title">Utenti attivi</h5>
@@ -265,7 +265,7 @@
       </div>      
   </main>
           <!--BOOTSTRAP-OFFCANVAS-->
-  <div class="w-50 offcanvas offcanvas-end show" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+  <div class="offcanvas offcanvas-end show" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
     <div class="offcanvas-header">
       <h5 class="offcanvas-title" id="offcanvasLabel">Inserisci un nuovo studente</h5>
       <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
