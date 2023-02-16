@@ -1,12 +1,4 @@
-/*
-#ffffff header
-#f8f9fa nav-header
-#e5e5e5 bg-search-header
-#1b72e8 header-bottom
-#0e263c a-side
-#f8f9ea main
 
-*/
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -72,6 +64,11 @@ header a, aside a{
     color: #ffffff;
     min-height: 125px;
     align-items: center;
+}
+.wid{
+    border: 2px solid;
+    border-color: #ced4da;
+    width: 100%;
 }
 
 /*******************/
