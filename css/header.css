@@ -7,6 +7,11 @@ nav{
     background: #ffffff;
 }
 
+#logo_sm{
+    width: 3.125rem;
+    height: 3.125rem;
+}
+
 #logo_lg{
     display: none;
 }
@@ -20,7 +25,7 @@ nav{
     display: none;
 }
 
-.col-2 button{
+.col-auto button{
     color: #ff8f00;
     background-color: transparent;
     border: none;

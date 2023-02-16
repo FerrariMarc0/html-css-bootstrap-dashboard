@@ -29,7 +29,7 @@
 }
 
 @media screen and (min-width: 992px){
-    .col-2 a{
+    .col-auto a{
             display: inline-block;
         }
     aside span{
